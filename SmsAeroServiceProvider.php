@@ -2,8 +2,8 @@
 
 namespace SmsAero;
 
-use App\SmsAero\Commands\InstallCommand;
-use App\SmsAero\Contracts\ApiContract;
+use SmsAero\Commands\InstallCommand;
+use SmsAero\Contracts\ApiContract;
 use Illuminate\Support\ServiceProvider;
 
 class SmsAeroServiceProvider extends ServiceProvider

@@ -3,8 +3,8 @@
 
 namespace SmsAero;
 
-use App\SmsAero\Contracts\ApiContract;
-use App\SmsAero\Responses\SmsAeroResponse;
+use SmsAero\Contracts\ApiContract;
+use SmsAero\Responses\SmsAeroResponse;
 use Illuminate\Support\Facades\Http;
 
 /**
