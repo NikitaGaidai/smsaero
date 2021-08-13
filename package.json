@@ -1,0 +1,16 @@
+{
+  "name": "inspiro/smsaero",
+  "description": "SMS Aero API implementation for Laravel.",
+  "keywords": ["Laravel", "Taylor Otwell", "SMS Aero", "SMS"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikita Gaidai",
+      "email": "nickgaidai@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "laravel/framework": "^8.40.0"
+  }
+}
