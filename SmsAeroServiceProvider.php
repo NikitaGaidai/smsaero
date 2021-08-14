@@ -10,11 +10,11 @@ class SmsAeroServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->singleton(SmsAero::class, function () {
-            return new SmsAero();
+        $this->app->singleton(SmsAeroManager::class, function () {
+            return new SmsAeroManager();
         });
 
-        $this->app->alias(SmsAero::class, ApiContract::class);
+        $this->app->alias(SmsAeroManager::class, ApiContract::class);
     }
 
     public function boot() {
