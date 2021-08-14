@@ -17,13 +17,8 @@ This package provides SMS Aero API for Laravel 8.x and use Laravel's native tool
     ```
    composer require inspiro/smsaero
     ```
-2. Generate configuration file:
-    ```
-    php artisan smsaero:install
-    ```
-   > Configuration file will be generated in `/config` directory.
 
-3. In your config/app.php file add:
+2. In your config/app.php file add:
     ```
     'providers' => [
         ...
@@ -40,6 +35,12 @@ This package provides SMS Aero API for Laravel 8.x and use Laravel's native tool
         'SmsAero' => SmsAero\SmsAeroFacade::class,
     ],
     ```
+
+3. Generate configuration file:
+    ```
+    php artisan smsaero:install
+    ```
+   > Configuration file will be generated in `/config` directory.
 
 ## Examples
 

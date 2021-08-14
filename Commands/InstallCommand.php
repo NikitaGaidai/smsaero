@@ -37,9 +37,6 @@ class InstallCommand extends Command
      */
     public function handle()
     {
-        $this->line('Register SmsAeroServiceProvider and SmsAeroFacade in your config/app.php file.');
-        $this->line('See full documentation at https://smsaero.ru/description/api/.');
-
         $this->info('Installation started.');
 
         // Publish config
@@ -60,7 +57,6 @@ class InstallCommand extends Command
 
         // Inform about next actions
         $this->newLine();
-        $this->line('Register SmsAeroServiceProvider and SmsAeroFacade in your config/app.php file.');
         $this->line('See full documentation at https://smsaero.ru/description/api/.');
 
         return 0;
