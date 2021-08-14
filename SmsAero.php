@@ -11,7 +11,7 @@ use SmsAero\Responses\SmsAeroResponse;
  * @package SmsAero
  *
  * @method static SmsAeroResponse auth()
- * @method static SmsAeroResponse send($numbers, $text, $dateSend = null, $callbackUrl = null, $shortLink = null)
+ * @method static SmsAeroResponse send(string|array $numbers, string $text, int|null $dateSend = null, string|null $callbackUrl = null, int|null $shortLink = null)
  * @method static SmsAeroResponse status($id);
  * @method static SmsAeroResponse statusList($number = null, $text = null, $page = null);
  * @method static SmsAeroResponse balance()
