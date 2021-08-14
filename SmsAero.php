@@ -9,6 +9,6 @@ class SmsAero extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'smsaero';
+        return SmsAeroManager::class;
     }
 }
